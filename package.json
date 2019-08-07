@@ -1,0 +1,49 @@
+{
+  "name": "strapi-provider-email-mandrill",
+  "version": "1.0.0",
+  "description": "Mandrill provider for strapi email",
+  "homepage": "https://github.com/jayakusumah",
+  "keywords": [
+    "email",
+    "strapi",
+    "mandrill"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "mandrill-api": "1.0.45",
+    "lodash": "^4.17.11"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "jayakusumah21@gmail.com",
+    "name": "Jayakusumah",
+    "url": "https://github.com/jayakusumah"
+  },
+  "maintainers": [
+    {
+      "name": "Jayakusumah",
+      "email": "jayakusumah21@gmail.com",
+      "url": "https://github.com/jayakusumah"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jayakusumah/strapi-provider-email-mandrill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jayakusumah/strapi-provider-email-mandrill/issues"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  }
+}
